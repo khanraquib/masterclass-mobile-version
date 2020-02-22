@@ -10,7 +10,7 @@ html {
     margin-top: 30px;
      display: flex;
      justify-content: space-between;
-     align-items: baseline;
+     /* align-items: baseline; */
      width: 100%;
      
 }
@@ -70,17 +70,26 @@ html {
     margin-top: 40px;
     width: 80%;
 }
+ .mockup {
 
+    width: 100%;
+    text-align: center;
+} 
 
 
 .mockup img{
-    margin: 100px 20px 0px 20px;
-    width: 320px;
+    /* margin: 100px 20px 0px 20px; */
+    /* width: 320px; */
+    margin-top: 40px;
+    width: 80%;
 }
 .people img{
 margin-top: 100px;
  margin-left: 4.5rem;
 
+}
+.people {
+    width: 100%;
 }
 .people h1{
     /* font-weight:bolder; */
@@ -93,10 +102,14 @@ margin-top: 100px;
     text-align: center;
     color:gray
    
-}.message img{
+}
+.message img{
     margin-top: 100px;
  margin-left: 4.5rem;
  
+}
+.message {
+    width: 100%;
 }
 .message h1{
     /* margin-left: 7.2rem; */
@@ -230,19 +243,19 @@ margin-bottom: 20px;
     border-width: 0;
  }
  .newsletterbimg img{
-   width: 100%;
+   width: 100vw;
    margin-top: 150px;
  }
  .newsletter{
      background-color: hsl(192, 100%, 9%);
- margin-top: -5px;
+ margin-top: -7px;
  color:  hsl(207, 100%, 98%);
- height: 750px;
+ height: 60vh;
  width: 100vw;
   }
  .newsletter h4{
      padding-left: 25px;
-     padding-top: 50px;
+     /* padding-top: 50px; */
      padding-bottom: 10px;
  }  
  .newsletter p{
@@ -278,29 +291,35 @@ margin-top: 20px;
      display: flex; 
       flex-direction: row;
       flex-wrap: wrap;
+      background-color: hsl(192, 100%, 9%) ;
+      height: 100vh;
+      margin-top: -2px;
+      color: white;
  }
  .footermsg h1{
 margin-top: 13px;
     margin-left: 10px;
 }
 .footermsg p{
-    margin-top: 10px;
+    /* margin-top: 10px; */
     margin-left: 25px;
     margin-right: 20px;
     font-size: 12px;
     line-height: 20px;
+    margin-top: -40px;
 }
 .phone{
-margin-top: 30px;
+/* margin-top: 30px; */
  display: flex; 
       flex-direction: row;
-      flex-wrap: wrap;
+      /* flex-wrap: wrap; */
       margin-left:25px ;
      
 }
 .phone h5{
     margin-left: 15px;
     font-size: 12px;
+    margin-top: 16px;
 
 }
 .phone img{
@@ -309,23 +328,25 @@ margin-top: 30px;
  .email{ 
     display: flex;  
        flex-direction: row; 
-       flex-wrap: wrap; 
+       /* flex-wrap: wrap;  */
       margin-left:25px ; 
-      margin-top: 20px;
-     
+      margin-top: -25px;  
 }
 .email img{
     height: 15px;
+    
 }
 .email h5{
     margin-left: 13px; 
-     font-size: 12px; 
+     font-size: 10px; 
+    margin-top: 16px;
+
 }
 .icons{
     display: flex;  
        flex-direction: row; 
        margin-left:25px ; 
-       margin-top: 50px;
+       margin-top: -40px;
        height: 24px;
 }
 
@@ -339,4 +360,174 @@ margin-top: 30px;
 }
 .insta img {
     width: 55%;
+}
+@media screen and (min-width:1024px){
+    .huddle img{
+        margin-left: 8rem;
+    }
+    .huddle button{
+        margin-right: 8rem;
+    }
+    .community h1{
+        font-size: 30px;
+    }
+    .community p{
+        text-align: center;
+        padding: 1rem 25rem 0rem 25rem;
+    }
+.community button{
+    height: 2rem;
+    width: 15%;
+    border-radius: 2rem;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin: 40px;
+} 
+.mockup img{
+    margin-top: 40px;
+    width: 65%; 
+      margin-right: 2rem;  
+       margin-left: 10rem;  
+      margin-right: 10rem; 
+} 
+.passage{
+     margin-left: 10rem; 
+     margin-right: 10rem; 
+    display:flex;
+    justify-content: space-between;
+}
+.people{
+    margin-left: 5rem;
+    
+}
+
+.together{
+    background-color:hsl(207, 100%, 98%);
+    text-align: center;
+    /* margin-bottom: 30px; */
+   /* / height: 500px; */
+    /* width: 100vw; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-left: 20px;
+
+}
+.together img{
+    height: 400px;
+        width: 50%;
+        /* padding: 20px; */
+}
+/* .together h2{ */
+    /* display: none; */
+    /* padding: 30px; */
+
+    .gt{
+        width: 40%;
+        text-align: left;
+    }
+    .gt h2{
+        margin-left: 20px;
+    }
+    .flowingconvoimg{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .flowingconvoimg img{
+        height: 400px;
+        width: 50%;
+    }
+    .flowingconvo{
+        width: 40%;
+    }
+    /* .yoursback{ */
+        /* display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+    } */
+    .yoursback img{ 
+         height: 20vh;  
+         width: 100%; }
+.yoursimg {
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding-left:20px ;
+}
+.yoursimg img{
+    height: 400px; 
+        width: 50%; 
+}
+.ys{
+    width: 40%;
+    text-align: left;
+}
+.ys h2{
+    margin-left: 20px;
+
+}
+.btn2{
+    width: 20%;
+    margin-left: 40%;
+}
+.bp{
+    margin-top: -10px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: hsl(192, 100%, 9%) ;
+}
+.footermsg {
+    width: 30%;
+    padding-top: 80px;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    /* height: 100vh; */
+    /* margin-top: 0px auto; */
+    /* position: relative; */
+    /* top: -200px; */
+}
+
+.footermsg h1 {
+    position: absolute;
+    /* right: 2%; */
+    /* top: 2%; */
+    left: 50px;
+}
+.footermsg p{
+    margin: 20px;
+}
+.newsletter {
+        width: 50%;
+}
+.newsletter input {
+    width: 50%;
+}
+.newsletter button {
+    width: 30%;
+    position: relative;
+    top: -50px;
+ 
+}
+.icons {
+    margin-top: 0px;
+}
+.email {
+    margin-bottom: 20px;
+}
+.phone {
+    margin-bottom: 30px;
+}
 }
